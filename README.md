@@ -36,6 +36,8 @@ sudo apt-get install dotnet-runtime-3.1
 
 ## Steps to reproduce
 
+### Create Origin Project
+
 - Create new Solutions
 
 ```sh
@@ -72,6 +74,27 @@ namespace Prime.Services
 ```
 
 - Inside root of project type the command `dotnet sln add PrimeService/PrimeService.csproj`
+
+### Create Test Project
+
+- In project's root folder, create new nUnit Test
+
+```sh
+dotnet new nunit -n PrimeService.Test && cd PrimeService.Test
+```
+
+- Add Reference so PrimeService Project
+
+```sh
+dotnet add reference ../PrimeService/PrimeService.csproj
+```
+
+- In project's root folder, add Project to solution
+
+```sh
+dotnet sln add ./PrimeService.Test/PrimeService.Test.csproj
+```
+
 
 ## References
 
