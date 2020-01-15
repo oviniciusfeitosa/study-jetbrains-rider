@@ -1,0 +1,8 @@
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/bin/Debug/netstandard2.0/PrimeService.deps.json
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/bin/Debug/netstandard2.0/PrimeService.dll
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/bin/Debug/netstandard2.0/PrimeService.pdb
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/Debug/netstandard2.0/PrimeService.csprojAssemblyReference.cache
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/Debug/netstandard2.0/PrimeService.AssemblyInfoInputs.cache
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/Debug/netstandard2.0/PrimeService.AssemblyInfo.cs
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/Debug/netstandard2.0/PrimeService.dll
+/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/Debug/netstandard2.0/PrimeService.pdb

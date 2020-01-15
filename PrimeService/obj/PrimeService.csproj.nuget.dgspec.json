@@ -14,7 +14,7 @@
         "outputPath": "/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vinicius/.nuget/NuGet/NuGet.Config"
+          "/home/vinicius/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

@@ -1438,6 +1438,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "PrimeService/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/PrimeService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PrimeService.dll": {}
+        }
       }
     }
   },
@@ -5256,12 +5266,18 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "PrimeService/1.0.0": {
+      "type": "project",
+      "path": "../PrimeService/PrimeService.csproj",
+      "msbuildProject": "../PrimeService/PrimeService.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "NUnit3TestAdapter >= 3.15.1",
+      "PrimeService >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
@@ -5278,7 +5294,7 @@
       "outputPath": "/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/vinicius/.nuget/NuGet/NuGet.Config"
+        "/home/vinicius/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5288,7 +5304,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/PrimeService.csproj": {
+              "projectPath": "/var/www/empresarial/vinnyfs89/study-jetbrains-rider/PrimeService/PrimeService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

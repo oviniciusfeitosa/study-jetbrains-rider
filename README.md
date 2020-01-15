@@ -95,6 +95,57 @@ dotnet add reference ../PrimeService/PrimeService.csproj
 dotnet sln add ./PrimeService.Test/PrimeService.Test.csproj
 ```
 
+### Creating Test
+
+- Inside folder **PrimeService.Tests** rename the file **UnitTest1.cs**  to **PrimeService_IsPrimeShould.cs**
+- Set content below
+
+```sh
+using NUnit.Framework;
+using Prime.Services;
+
+namespace Prime.UnitTests.Services
+{
+    [TestFixture]
+    public class PrimeService_IsPrimeShould
+    {
+        [Test]
+        public void IsPrime_InputIs1_ReturnFalse()
+        {
+            PrimeService primeService = CreatePrimeService();
+            var result = primeService.IsPrime(1);
+
+            Assert.IsFalse(result, "1 should not be prime");
+        }
+
+        private PrimeService CreatePrimeService()
+        {
+             return new PrimeService();
+        }
+    }
+}
+```
+
+The **[TestFixture]** attribute indicates a class that contains unit tests. 
+
+The **[Test]** attribute indicates a method that is a test method.
+
+- Run the test
+
+**Note** It will crash because test is not implemented yet.
+
+- Change PrimeService.cs **IsPrime** method to:
+
+```sh
+public bool IsPrime(int candidate)
+{
+    if (candidate == 1)
+    {
+        return false;
+    }
+    throw new NotImplementedException("Please create a test first.");
+} 
+``` 
 
 ## References
 
